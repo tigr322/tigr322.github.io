@@ -38,3 +38,11 @@ footer {
     padding: 14px 13px 10px 19px;
     background-color: blue;
 }
+main {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #8b00ff;
+    border-left: 7px solid #bf1f1f;
+    border-right: 6px solid #bf1f1f;
+}
