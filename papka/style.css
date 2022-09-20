@@ -22,3 +22,12 @@ header {
     height: 150px;
     width: 150px;
 }
+nav {
+    display: block;
+    width: 960px;
+    height: 70px;
+    background-color: #blue;
+    margin: auto;
+    text-align: center;
+    padding-left: 10;
+}
