@@ -168,3 +168,10 @@ main {
     font-size: 10pt;
     font-family: 'Cormorant SC', serif;
 }
+.b1, .b2, .b3, .b4 {
+    font-family: 'Times New Roman', bold;
+    flex: 1;
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+}
