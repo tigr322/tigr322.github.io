@@ -111,3 +111,30 @@ main {
     font-weight: bold;
     line-height: 110%;
 }
+ .form select {
+        width: 100%;
+        font-size: 16pt;
+        font-family: 'Cormorant SC', serif;
+        background-color: #fff0f5;
+    }
+
+    .form input {
+        width: 100%;
+        background-color: #fff0f5;
+    }
+
+    .form textarea {
+        width: 100%;
+        font-size: 16pt;
+        font-family: 'Cormorant SC', serif;
+        background-color: #fff0f5;
+    }
+
+.form input {
+    margin-top: 10px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13pt;
+    font-family: 'Cormorant SC', serif;
+}
