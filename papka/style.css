@@ -47,3 +47,8 @@ main {
     border-left: 7px solid #bf1f1f;
     border-right: 6px solid #bf1f1f;
 }
+.page {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
