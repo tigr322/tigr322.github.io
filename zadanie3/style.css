@@ -1,1 +1,54 @@
+header {
+    display: block;
+    width: 100%;
+    height: 180px;
+    padding: 15px 15px 0px 15px;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-bottom: 20px;
+    background-color: #ffc0cb;
+    border-bottom: 5px solid #bf1f1f;
+    vertical-align: middle
+}
 
+#hrefy  {
+	width: 100%
+}
+
+#logo {
+	margin-left: 40%;
+    float: left;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+nav {
+    display: block;
+    width: 960px;
+    height: 70px;
+    background-color: #blue;
+    margin: auto;
+    text-align: center;
+    padding-left: 10;
+}
+footer {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 14px 13px 10px 19px;
+    background-color: blue;
+    text-align: center;
+}
+main {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #8b00ff;
+    border-left: 7px solid #bf1f1f;
+    border-right: 6px solid #bf1f1f;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
