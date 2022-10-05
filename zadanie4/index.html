@@ -1,1 +1,209 @@
 
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Таблица</title>
+    <link rel="stylesheet" href = "style.css" >
+   <link rel="shortcut icon" href="https://img5.goodfon.ru/original/1920x1080/c/59/cataclysm-wow-warcraft-volk-world-of-wacraft.jpg" type="image/png">
+</head>
+  
+  <body>
+       <div class="headerblock">
+       <main>
+            <a href="./3.html">
+                <h1>Задание №3</h1>
+            </a>
+        </main>
+        <aside>
+            <a href="./3.html">
+            <img id="logo" src="https://img5.goodfon.ru/original/1920x1080/c/59/cataclysm-wow-warcraft-volk-world-of-wacraft.jpg" alt="logo">
+            </a>
+        </aside>
+    </div>
+    </main>
+       
+   
+     
+        <nav class="nav">
+             <a href="#links" class="b1"><h5>Гиперссылки</h5></a>
+        <a href="#table" class="b2"><h5>Таблица</h5></a>
+        <a href="#form" class="b3"><h5>Форма</h5></a>
+        </nav>
+     <div id="hrefy">
+    <h1>Задание 3</h1>
+ <div class="page">
+        <div class="contentblock" id="links">
+            <h2 class="h2">Гиперссылки</h2>
+    <ol>
+
+    <li><a href="http://kubsu.ru/">КубГУ</a>  </li>
+
+    <li><a href="http://example.com/">Абсолютная гиперссылка</a></li>
+
+    <li><a href="https://example.com/news.html">абсолютная на главную </a> </li>
+
+    <li><a href="ftp://user:password@example.com/myfile.zip">c авторизацией </a> </li>
+
+    <li><a href="ftp:/example.com/myfile.zip">без авторизацией </a> </li>
+
+    <li><a href="https://example.com/examples/examle#foto">Фрагмент cтраницы некоторого сайта(пример)</a> </li>
+
+    <li><a href="http://example/examples?id=a&id=b">Ссылка с двумя параметрами(пример)</a></li>
+
+    <li><nav><a href="1.html"> ex1</a>  <a href="2.html">ex2</a> 
+
+       <a href="3.html">ex3</a>  <a href="4.html">ex4</a></nav></li>
+
+    <li><a> ссылка без href</a></li>
+
+    <li><a href="##">ссылка с пустым href</a></li>
+
+    <li><a href="http://example.ru" rel="nofollow"> ссылка по которому запрещен переход</a></li>
+
+    <li><a href="http://example.ru" rel="nofollow"> запрещенная на индексацию поисковикам</a></li>
+    <li> <p>  Посмотрите на этот  <a href ="https://example.com/news.html" target = "_blank" rel = "noopener"> пример </a> , который показывает нам как должна выглядить контекстная ссылка. </p></li>
+
+
+    <li><a href="examle.html"><img src="https://wampi.ru/image/RQWUg9t" width="50" 
+
+   height="50" alt="Ccылка-изображение"></a> </li>
+
+    
+
+    <li><img src = "map.png" usemap = "#figuri" alt = "Доступны 4 фигуры для выбора" >
+
+		<map name = "figuri" >
+
+			<area shape = "rect" coords = "25,25,125,125" href = "red.html" alt = "Красный квадрат" >
+
+			<area shape = "circle" coords = "200,75,50" href = "green.html" alt = "Зелёный круг." > </map> </li>
+
+     <li><a href="example.html">Относительная ссылка</a></li>
+
+     <li><a href="example/about.html">В каталоге about</a></li>
+
+    <li><a href="examples/example.html">Ccылка на вышестоящий каталог</a></li>
+
+    <li><a href="exampler/examples/example.html"> РАСПОЛОЖЕННЫЙ ДВУМЯ УРОВНЯМИ ВЫШЕ</a></li>
+
+    <li><a href="/news.html">Сокращенный на главную</a></li>
+
+    <li><a href="#tigr322.github.io">Сокращенный внутренняя ссылка</a></li>
+     </ol>
+         </div>
+<div  id="table">
+	<h3> Таблица </h3>
+    <table> 
+    <tr>
+      <th>Страны</th>
+       <th> Автомобили </th>
+       <th> Комьпьютеры</th>
+       <th> Телефоны </th>
+       <th> ОС </th>
+    </tr>
+      
+    <tr>
+      <td>США</td>
+      <td>Ford</td>
+      <td>IBM, Apple</td>
+      <td>Iphone</td>
+      <td>IOS,Microsoft</td>
+      </tr>
+    <tr>
+        <td>Япония</td>
+        <td>Toyota</td>
+        <td>нет</td>
+        <td>Panasonic</td>
+        <td>Haiku</td>
+    </tr>
+    <tr>
+        <td>Германия</td>
+        <td>BMW, Mercedes</td>
+        <td>нет</td>
+        <td>Gigaset</td>
+        <td>BundesTux</td>
+    </tr>
+                   
+                     
+   </table>
+</div>
+  <div class="contentblock" id="form">
+    <h3>Форма</h3>
+	 <li>
+     <form action="http://example.com/app/profile.php" method="post">
+         <p>
+            <label for="username">
+               Имя: 
+            </label>
+            <input type="text" name="username" />
+            <br />
+           <label for="email">
+               Адрес эл. почты: 
+            </label>
+            <input type="text" name="email" />
+		 <br />
+		 <label for="start"> Дата рождения:</label>
+
+       <input type="date" id="start" name="trip-start">
+            <br />
+            <label for="sex">
+               Пол: 
+		     <br />
+            </label>
+            <input type="radio" name="sex" value="male" />
+            мужской
+            <br />
+            <input type="radio" name="sex" value="female" />
+            женский
+            <br />
+            <input type="radio" name="sex" value="secret" />
+            не хочу отвечать
+		 <br />
+		  <label for="bones">
+               Количество конечностей:
+			   <br />
+            </label>
+            <input type="radio" name="bones" value="4" />
+            4
+            <br />
+            <input type="radio" name="bones" value="20" />
+            20
+            <br />
+            <input type="radio" name="bones" value="1" />
+           1
+		 <br />
+            <input type="radio" name="bones" value="0" />
+           0
+		 <br />
+		   <p><strong>Суперспособности</strong></p>
+   <p><select name="hero">
+    <option value="s1" selected>Бессмертие</option>
+    <option value="s2" selected>Прохождение сквозь стены</option>
+    <option value="s3" selected> Левитация </option>
+    <option value="s3" label="Телепортация">Телепортация</option>
+   </select> 
+	   <p>
+	   <form action="handler.php">
+          <p><b>Ваша биография:</b></p>
+          <p><textarea name="comment"></textarea></p>
+<form action="handler.php">
+  
+ <p><input type="checkbox" name="a" value="know"> C контрактом ознакомлен (а) </p>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+         </p>
+	     </p>
+ </li>
+</div>
+	
+	      
+		 
+ </main>
+       <footer>
+            <font color="red">made by Tigran Adamyan
+            </font>
+        </footer>
+  </body>
+</html>
