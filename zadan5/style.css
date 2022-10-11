@@ -1,1 +1,12 @@
-
+@font-face {
+    font-family: "Times New Roman", bold; 
+}
+    form{
+      font-size: 24px; 
+  }
+  #calculateResult{
+      margin-top: 10px;
+  }
+  #kol{
+      margin-top: 10px;
+  }
