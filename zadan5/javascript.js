@@ -1,7 +1,7 @@
 
 function Zenakol() {
-    let price = document.getElementsByName("zena");
-    let count = document.getElementsByName("kol");
+    let zena = document.getElementsByName("zena");
+    let kol = document.getElementsByName("kol");
     let result = document.getElementById("result");
     let toPrice = zena[0].value;
     let toCount = kol[0].value;
