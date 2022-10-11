@@ -8,7 +8,7 @@ function Zenakol() {
     let z = toCount.match(/^\d+$/);
     let k = toPrice.match(/^\d+$/);
     if(z !== null && k !== null) {
-    result.innerHTML = parseInt(price[0].value) * parseInt(count[0].value);
+    result.innerHTML = parseInt(zena[0].value) * parseInt(kol[0].value);
     }
   return false;
   }
