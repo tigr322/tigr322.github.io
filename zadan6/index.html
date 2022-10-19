@@ -1,23 +1,54 @@
 <!DOCTYPE html>
-<html> 
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script defer src="javascript.js"></script> 
-    <title>Задание 5</title>
+    <link rel="stylesheet" href="style.css" type="text/css"><script defer src="javascript.js"></script> 
+    <title>Задание 6</title>
 </head>
-<body>
-  <div class="body">
+<body style="background-color: blue">
+    <div class="body">
+        <div id="calc">
             <form class="container row">
                 <div class="form-group">
-                Калькулятор стоимости
-                <input name="zena" type="text" class="form-control" id="zena" placeholder="Введите цену">         
-                <input name="kol" type="text" class="form-control" id="kol" placeholder="Введите количество">         
-                <button id="calculateResult" type="button" class="btn btn-light container" onclick="return Zenakol();">Узнать</button> 
+                    <label>Калькулятор </label>
+
+                        <select name="myselect" class="form-control">
+                            <option value="1" selected>Witcher 1: Anchant Edition</option>
+                            <option value="2">Witcher 2: Kingslayer</option>
+                            <option value="3">Witcher 3: Wildhunt</option>
+                        </select> 
+
+                        <div class="pis d-none" id="mycars">
+
+                            <div class="custom-control custom-car">
+                                <input type="car" class="custom-control-input" id="car" name="mycar" value="c1" checked>
+                                <label class="custom-control-label" for="car">с LADA</label>
+                            </div>
+                            
+                            <div class="custom-control custom-car">
+                                <input type="car" class="custom-control-input" id="car2" name="mycar" value="c2">
+                                <label class="custom-control-label" for="car2">С Lamborghini</label>
+                            </div>
+                            
+                            <div class="custom-control custom-car">
+                                <input type="radio" class="custom-control-input" id="car3" name="mycar" value="c3">
+                                <label class="custom-control-label" for="car3">С обеими</label>
+                            </div>
+                    
+                        </div>
+                        <div id="mycheck" class="d-none">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="check" name="mycheck">
+                                <label class="custom-control-label" for="check">Hearthfire</label>
+                            </div>
+                        </div>
+                    <input name="count" type="text" class="form-control" id="count" placeholder="Сколько">         
                 </div>
-            </form>
-     Результат: 
-        <div class="result" id="result"></div>
+              
+            </form>   
+            
+       С вас <div class="result" id="result"></div> руб.
+     </div> 
     </div>
 </body>
 </html> 
