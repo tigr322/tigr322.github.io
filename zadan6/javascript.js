@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
   let cars = document.getElementById("mycars"); 
   let s = document.getElementsByName("myselect");
   let checks = document.getElementById("mycheck");
-  let c = document.querySelectorAll(".pis input[type=radio]");
+  let c = document.querySelectorAll(".pis input[type=car]");
   let checkbox = document.getElementById("check");
   let result = document.getElementById("result");
   let count = document.getElementsByName("count");
