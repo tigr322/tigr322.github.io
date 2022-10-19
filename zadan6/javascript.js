@@ -1,15 +1,15 @@
 window.addEventListener('DOMContentLoaded', function (event) {
-  const PRICE = 40;
-  const PRICE_2 = 100;
-  const PRICE_3 = 200;
-  const OVERPRICE = 1000;
-  const RADIO = 10;
-  const RADIO_2 = 15;
-  const RADIO_3 = 20;
-  const CHECKBOX = 300;
+  const PRICE = 400000;
+  const PRICE_2 = 1000000;
+  const PRICE_3 = 20000000;
+  const OVERPRICE = 100000000;
+  const CAR = 100000;
+  const CAR_2 = 150000;
+  const CAR_3 = 200000;
+  const CHECKBOX = 300000;
   let price = PRICE;
   let overPrice = OVER_PRICE;
-  let radios = document.getElementById("myradios"); 
+  let cars = document.getElementById("mycars"); 
   let s = document.getElementsByName("myselect");
   let checks = document.getElementById("mycheck");
   let c = document.querySelectorAll(".pis input[type=radio]");
@@ -48,16 +48,16 @@ c.forEach(function (currentRadio) {
     currentRadio.addEventListener("change", function (event) {      
         let c = event.target;
         if (c.value === "c1") {      
-            overPrice = RADIO_1;
-            console.log(r.value);
+            overPrice = CAR;
+            console.log(c.value);
         }
         if (c.value === "c2") {
-            overPrice = RADIO_2;
-            console.log(r.value);
+            overPrice = CAR_2;
+            console.log(c.value);
         }
         if (c.value === "c3") {
-            overPrice = RADIO_3;
-            console.log(r.value);
+            overPrice = CAR_3;
+            console.log(c.value);
         }
     });
 });
