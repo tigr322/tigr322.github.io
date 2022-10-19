@@ -1,12 +1,12 @@
 window.addEventListener('DOMContentLoaded', function (event) {
-  const PRICE = 400000;
-  const PRICE_2 = 1000000;
-  const PRICE_3 = 20000000;
-  const OVERPRICE = 100000000;
-  const CAR = 100000;
-  const CAR_2 = 150000;
-  const CAR_3 = 200000;
-  const CHECKBOX = 300000;
+  const PRICE = 400;
+  const PRICE_2 = 1000;
+  const PRICE_3 = 2000;
+  const OVERPRICE = 10000;
+  const CAR = 100;
+  const CAR_2 = 150;
+  const CAR_3 = 200;
+  const CHECKBOX = 3000;
   let price = PRICE;
   let overPrice = OVER_PRICE;
   let cars = document.getElementById("mycars"); 
@@ -22,21 +22,21 @@ window.addEventListener('DOMContentLoaded', function (event) {
     let select = event.target;
     
     if (select.value === "1") {
-      radios.classList.add("d-none");
+      cars.classList.add("d-none");
       checks.classList.add("d-none");
       overPrice = OVER_PRICE;
       price = PRICE;
 
     }
     if(select.value === "2") {
-      radios.classList.remove("d-none");
+      cars.classList.remove("d-none");
       checks.classList.add("d-none");
       document.getElementById("radio1").checked = true;
       overPrice =  OVER_PRICE;
       price = PRICE_2;
     }
     if(select.value === "3"){
-      radios.classList.add("d-none");
+      cars.classList.add("d-none");
       checks.classList.remove("d-none");
       overPrice = OVER_PRICE;
       price = PRICE_3;
