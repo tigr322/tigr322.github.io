@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script defer src="javascript.js"></script> 
+    <title>Задание 5</title>
+</head>
+<body>
+  <div class="body">
+            <form class="container row">
+                <div class="form-group">
+                Калькулятор стоимости
+                <input name="zena" type="text" class="form-control" id="zena" placeholder="Введите цену">         
+                <input name="kol" type="text" class="form-control" id="kol" placeholder="Введите количество">         
+                <button id="calculateResult" type="button" class="btn btn-light container" onclick="return Zenakol();">Узнать</button> 
+                </div>
+            </form>
+     Результат: 
+        <div class="result" id="result"></div>
+    </div>
+</body>
+</html> 
