@@ -44,8 +44,8 @@ window.addEventListener('DOMContentLoaded', function (event) {
     }
   });
 
-c.forEach(function (currentRadio) {
-    currentRadio.addEventListener("change", function (event) {      
+c.forEach(function (currentCar) {
+    currentCar.addEventListener("change", function (event) {      
         let c = event.target;
         if (c.value === "c1") {      
             overPrice = CAR;
