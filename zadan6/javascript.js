@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', function (event) {
   const PRICE_1 = 500;
-  const PRICE_2 = 1000;
-  const PRICE_3 = 2000;
+  const PRICE_2 = 700;
+  const PRICE_3 = 1000;
   const EXTRA_PRICE = 10000;
   const RADIO_1 = 100;
   const RADIO_2 = 150;
