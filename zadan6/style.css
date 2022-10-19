@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Times New Roman", bold; 
+    font-family: "Arial", bold; 
 }
     
 .body{
-    font-family: "Times New Roman", bold;  
-    color:cyan;
-    margin-left: 1%;
-    margin-top: 1%;
+    font-family: "Arial", bold;  
+    color:red;
+    margin-left: 6%;
+    margin-top:6%;
   }
   form{
       font-size: 24px; 
